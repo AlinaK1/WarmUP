@@ -37,10 +37,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringOperations.cs" />
     <Compile Include="StringHelperTest.cs" />
-    <Compile Include="Hiddentests\HiddenTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hiddentests\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
