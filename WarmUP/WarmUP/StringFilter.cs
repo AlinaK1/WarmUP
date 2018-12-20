@@ -13,6 +13,11 @@ namespace StringHelper
             return "";
         }
 
+        public static string RevertString(string mesage)
+        {
+            throw new NotImplementedException(); 
+        }
+
     }
 }
 
