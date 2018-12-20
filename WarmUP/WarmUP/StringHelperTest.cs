@@ -11,7 +11,8 @@ namespace StringHelper
         public void RemoveTest()
         {
             var actual = StringOperations.RemoveSymbols("dsdsd", '!');
-            Assert.AreEqual("dsdsd", actual);
+            var expected = "dsdsd";
+            Assert.AreEqual(expected,actual);
         }
 
 
