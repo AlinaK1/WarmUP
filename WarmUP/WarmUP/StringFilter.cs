@@ -10,7 +10,7 @@ namespace StringHelper
         public static string RemoveSymbols(string str, char ch)
         {
 
-            return "";
+            throw new NotImplementedException();
         }
 
         public static string RevertString(string mesage)
